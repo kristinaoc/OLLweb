@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins|Raleway|Allura");
+@import url("https://fonts.googleapis.com/css?family=Poppins|Raleway|Allura|Dancing+Script");
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|KoHo|Merienda|Monda|Noto+Sans+JP|Noto+Sans+KR|Pontano+Sans|Poppins|Rubik|Tajawal');
 
 /* -------------------------VARIABLES-----------------------------  */
@@ -7,6 +7,7 @@
   /* fonts */
   --font-default: "Raleway", sans-serif;
   --font-heading: "Allura", cursive;
+ /* --font-heading: 'Dancing Script', cursive;*/
   /* --font-heading: "Lilita One", cursive; */
 
 
@@ -30,7 +31,7 @@ font-family: 'Tajawal', sans-serif; */
   --color-mid-blue: #34495e;
   --color-almost-white: #e8eef4;
   --color-purple: #750088;
-  --color-darkgrey: #999999;
+  --color-darkgrey: #222023;
 
   /* abstract colors out */
   --main-text-color: var(--color-mid-blue);
@@ -153,8 +154,9 @@ header .layout-wide {
 }
 
 .logo-wrapper {
-  width: 20%;
-  float: left;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-title {
