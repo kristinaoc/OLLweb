@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lilita+One|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Poppins|Raleway|Allura");
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|KoHo|Merienda|Monda|Noto+Sans+JP|Noto+Sans+KR|Pontano+Sans|Poppins|Rubik|Tajawal');
 
 /* -------------------------VARIABLES-----------------------------  */
@@ -6,7 +6,7 @@
 :root {
   /* fonts */
   --font-default: "Raleway", sans-serif;
-  --font-heading: "Poppins", sans-serif;
+  --font-heading: "Allura", cursive;
   /* --font-heading: "Lilita One", cursive; */
 
 
