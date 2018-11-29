@@ -49,6 +49,8 @@ font-family: 'Tajawal', sans-serif; */
   --smallpadder: 1%;
   --spacer: 20px;
   --spacer-large: 80px;
+  --spacer-medium: 40px;
+  --spacer-small: 10px;
   --transition-time: 0.3s;
 
   --area-wide: 1200px;
@@ -320,8 +322,8 @@ footer {
 
 .footer-subscribe {
   background-color: var(--secondary-bg-color);
-  padding-top: var(--spacer-large);
-  padding-bottom: var(--spacer-large);
+  padding-top: var(--spacer-medium);
+  padding-bottom: var(--spacer-small);
   text-align: center;
 }
 
