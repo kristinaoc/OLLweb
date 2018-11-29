@@ -444,7 +444,7 @@ input[type="submit"]:hover {
 .image-gallery li {
 
     float: left;
-    max-width: 250px;
+    max-width: 150px;
     margin: 10px;
 }
 
@@ -460,6 +460,19 @@ input[type="submit"]:hover {
 .image-gallery a:hover img {
     transform: scale(1.1);
     filter: unset;
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+  .image-gallery li {
+
+    float: left;
+    max-width: 250px;
+    margin: 10px;
+  }
+
 }
 
 
