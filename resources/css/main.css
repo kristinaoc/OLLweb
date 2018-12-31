@@ -61,6 +61,7 @@ font-family: 'Tajawal', sans-serif; */
   --font-size-section-title: 30px;
   --font-size-sub-title: 24px;
   --font-size-heading-small: 16px;
+  --font-size-menu-nav: 16px;
 }
 
 @media screen and (min-width: 800px) {
@@ -179,6 +180,7 @@ header .layout-wide {
   position: sticky;
   top: 0;
   z-index: 10;
+  font-size: var(--font-size-menu-nav)
 }
 
 .nav-prompt {
@@ -192,12 +194,12 @@ header .layout-wide {
 }
 
 .nav-inner {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .nav-inner ul {
-  padding: 0;
-  margin: 0;
+  padding: 10px;
+  margin: 0px;
   list-style: none;
 }
 
@@ -226,7 +228,7 @@ header .layout-wide {
   }
 
   .navigation {
-    padding: var(--padder) 0;
+    padding: var(--padder) 20px;
   }
 
   .nav-inner ul {
@@ -415,6 +417,9 @@ input[type="submit"]:hover {
     }
 
 
+    .layout-wide img {
+      width:100%
+    }
 }
 
 
