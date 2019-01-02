@@ -356,6 +356,13 @@ footer {
   text-align: center;
 }
 
+i.fab {
+  color: var(--alternative-text-color); 
+
+
+}
+
+
 .copyright {
   color: white;
 }
