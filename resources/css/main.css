@@ -196,19 +196,19 @@ header .layout-wide {
 .nav-prompt {
   width: 100%;
   background-color: var(--alternative-bg-color);
-  /* padding-top: var(--smallpadder);
-  padding-bottom: var(--smallpadder); */
-  color: var(--alternative-text-color);
+  padding-top: var(--smallspacer);  /*dddd*/
+  padding-bottom: var(--smallspacer);   /*dddd*/
+  color: var(--alternative-text-color);  
   border: none;
   border-top: 1px solid black;
 }
 
 .nav-inner {
-  margin-bottom: 10px;
+  margin-bottom: 0px;  /*was 10*/
 }
 
 .nav-inner ul {
-  padding: 10px;
+  padding: 0px;  /*was 10*/
   margin: 0px;
   list-style: none;
 }
@@ -509,6 +509,7 @@ input[type="submit"]:hover {
   .image-gallery li {
 
     float: left;
+    max-height: 250px;
     max-width: 250px;
     margin: 10px;
   }
