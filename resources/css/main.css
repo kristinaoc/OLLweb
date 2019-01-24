@@ -651,3 +651,31 @@ input[type="submit"]:hover {
   margin: -10px;
   padding: 0;
 }
+
+
+
+/* --------------------blog test stuff------------------------ */
+
+/* page Content */
+#content {
+  display: block;
+  clear: both;
+  margin-bottom: 20px;
+  min-height: 500px;
+}
+
+#left-sidebar {
+  width: 35%;
+  float: left;
+  margin: 0 15px;
+  background: #ccc; 
+  min-height: 500px; 
+  text-align: center;
+}
+#right {
+  float: right;
+  width: 62%;
+  background: #efefef; 
+  text-align: center;
+  min-height: 500px;
+}
