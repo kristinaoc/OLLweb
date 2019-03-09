@@ -90,7 +90,7 @@ font-family: 'Tajawal', sans-serif; */
     /* font sizes for desktop */
     --font-size-site-title: 54px;
     --font-size-page-title: 80px;
-    --font-size-section-title: 48px;
+    --font-size-section-title: 36px;   /* was 48 */ 
 
     /* measurements*/
     --padder: 2%;
