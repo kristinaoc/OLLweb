@@ -119,7 +119,17 @@
     <main>
 
         <section class="hero-module">
-            <img src="resources/images/kindyphotoscollage.jpg" alt="Collage of kindy kid photo examples of work by Kristina at Of Light and Lens Photography">
+           <!-- <img src="resources/images/kindyphotoscollage.jpg" alt="Collage of kindy kid photo examples of work by Kristina at Of Light and Lens Photography">   -->
+
+
+            <picture>
+                <source media='(min-width: 801px)'
+                        srcset="resources/images/kindyphotoscollage.jpg"/>
+                <source media='(max-width: 800px)'
+                        srcset="resources/images/kindyphotoscollage_mobile.jpg"/>
+                <img src="resources/images/kindyphotoscollage.jpg" alt="Collage of kindy kid photo examples by Kristina at Of Light and Lens Photography">
+              </picture>
+
 
             <div class="hero-content">
                 <h1 class="heading-main layout-wide">Daycare and Kindy Photography </h1>
