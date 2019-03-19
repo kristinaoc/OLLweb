@@ -665,6 +665,7 @@ input[type="submit"]:hover {
   float: left;
   max-width: 50px;
   margin: 10px;
+  
 }
 
 
@@ -681,6 +682,10 @@ input[type="submit"]:hover {
   filter: unset;
 }
 
+
+.image-index-footer a {
+  text-decoration: #750088
+}
 
 @media screen and (min-width: 800px) {
 
