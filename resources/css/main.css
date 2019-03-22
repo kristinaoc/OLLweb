@@ -832,3 +832,13 @@ input[type="submit"]:hover {
     width: 100%;
   }
 }
+
+
+
+/*---------------pricing table-------------*/
+
+
+th, td {
+  padding: 2px;
+  text-align: left;
+}
