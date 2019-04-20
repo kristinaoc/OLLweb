@@ -66,6 +66,7 @@ font-family: 'Tajawal', sans-serif; */
 
   /* measurements*/
   --padder: 3%;
+  --largepadder: 6%;
   --smallpadder: 1%;
   --spacer: 20px;
   --spacer-large: 80px;
@@ -85,7 +86,7 @@ font-family: 'Tajawal', sans-serif; */
   --font-size-menu-nav: 16px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1030px) {
   :root {
     /* font sizes for desktop */
     --font-size-site-title: 54px;
@@ -123,6 +124,7 @@ h1 {
   font-weight: normal;
   color: var(--strong-text-color);
   
+  
 }
 
 
@@ -132,6 +134,7 @@ h4 {
   font-family: var(--font-heading8);
   font-weight: normal;
   color: var(--strong-text-color);
+  
 }
 
 h1 {
@@ -140,6 +143,10 @@ h1 {
 
 h2 {
   font-size: var(--font-size-section-title);
+  text-align: center;
+  padding-top: var(--largepadder);
+ 
+  
 }
 
 h3 {
@@ -170,6 +177,27 @@ p.price {
   
   text-align-last: right;
   padding: 0px;
+}
+
+
+/* heading border */
+hr {
+  border: 0.5px solid var(--strong-text-color);
+ /* border-radius: 1px;*/
+ display: block;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: auto;
+ margin-right: auto;
+ border-style: inset;
+ border-width: 0.5px;}
+
+
+
+ 
+ .hline-bottom {
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid var(--strong-text-color); /* whichever color you prefer */
 }
 
 /* -------------------------LAYOUTS-----------------------------  */
@@ -218,7 +246,7 @@ header .layout-wide {
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1030px) {
   .logo-wrapper {
     width: 60%;
     margin-left: auto;
@@ -285,7 +313,7 @@ header .layout-wide {
   border-bottom-color: currentColor;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1030px) {
   .nav-prompt {
     display: none;
   }
@@ -305,7 +333,7 @@ header .layout-wide {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1030px) {
 
     .nav-inner {
         overflow: hidden;
@@ -460,7 +488,7 @@ input[type="submit"]:hover {
 /* -------------------------MODULES-----------------------------  */
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1030px) {
     
     .hero-module {
         position: relative;   
