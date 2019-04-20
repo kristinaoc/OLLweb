@@ -209,6 +209,7 @@ hr {
 
 .layout-full-width {
   width: 100%;
+  background: var(--color-almost-white);
 }
 
 .layout-wide {
@@ -217,6 +218,34 @@ hr {
   padding-right: var(--padder);
   margin-left: auto;
   margin-right: auto;
+}
+
+.layout-wide-over1 {
+  max-width: 100%;
+  padding-left: var(--padder);
+  padding-right: var(--padder);
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--color-almost-white);
+  position: sticky;
+
+  
+  z-index: 1;
+
+}
+
+.layout-wide-over2 {
+  max-width: 100%;
+  padding-left: var(--padder);
+  padding-right: var(--padder);
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--color-almost-white);
+  position: sticky;
+
+  
+  z-index: 1;
+
 }
 
 .layout-mid {
@@ -620,18 +649,47 @@ input[type="submit"]:hover {
 
 
 
+
+.hero-module {
+  width: 100%;  overflow: hidden;
+  position: sticky;
+
+  top: 0;
+  z-index: 1;
+}
+
+
+
+
+.hero-module-2 {
+  width: 100%;  overflow: hidden;
+  position: sticky;
+
+  top: 0;
+  z-index: 2;
+}
+
+
+
+.hero-module-3 {
+  width: 100%;  overflow: hidden;
+  position: sticky;
+
+  top: 0;
+  z-index: 2;
+}
+
+
+
 /*
-.img {
-  width: 100%;
+.navigation {
+  background-color: var(--alternative-bg-color);
   position: sticky;
   top: 0;
   z-index: 10;
+  font-size: var(--font-size-menu-nav)
 }
-
 */
-
-
-
 
 /* --------------------gallery index------------------------ */
 
