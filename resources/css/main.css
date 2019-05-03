@@ -218,6 +218,7 @@ hr {
   padding-right: var(--padder);
   margin-left: auto;
   margin-right: auto;
+ 
 }
 
 .layout-wide-over1 {
@@ -228,23 +229,21 @@ hr {
   margin-right: auto;
   background: var(--color-almost-white);
   position: sticky;
+  
 
   
   z-index: 1;
 
 }
 
-.layout-wide-over2 {
+.layout-wide-outer {
   max-width: 100%;
-  padding-left: var(--padder);
-  padding-right: var(--padder);
   margin-left: auto;
   margin-right: auto;
   background: var(--color-almost-white);
-  position: sticky;
+  padding-bottom: 120pt;
 
-  
-  z-index: 1;
+/*-------confusing bit added in here ---------*/
 
 }
 
