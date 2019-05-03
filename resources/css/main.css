@@ -227,7 +227,7 @@ hr {
   padding-right: var(--padder);
   margin-left: auto;
   margin-right: auto;
-  background: var(--color-almost-white);
+  background: white;
   position: sticky;
   
 
@@ -240,7 +240,7 @@ hr {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: var(--color-almost-white);
+  background: white;
   padding-bottom: 120pt;
 
 /*-------confusing bit added in here ---------*/
