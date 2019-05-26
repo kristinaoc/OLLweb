@@ -48,6 +48,7 @@ font-family: 'Tajawal', sans-serif; */
   --color-red: #ff5b5e;
   --color-deep-blue: #28313b;
   --color-light-grey: #97a4b1;
+  --color-mid-grey: #3a383b;
   --color-mid-blue: #34495e;
   --color-almost-white: #e8eef4; 
    /*--color-almost-white: #cfced0;*/
@@ -273,6 +274,53 @@ header .layout-wide {
   margin-right: auto;
 }
 
+
+.cta-ribbon {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-mid-grey);
+  padding-bottom: var(--smallpadder);
+  padding-top: var(--smallpadder);
+  color: var(--color-almost-white);
+  text-align: center;
+
+}
+
+.cta-button {
+  margin: 3px;
+  background-color: #750088;
+  background-color: rgb(132, 34, 145);
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+
+ /*-- color: var(--alternative-text-color);
+  font-family: var(--font-default);
+  text-transform: uppercase;
+  background: var(--alternative-bg-color);  --*/
+  border-radius: 40px;
+  padding: 5 px;
+  border: none;
+
+  transition: var(--transition-time);
+  display: inline-block;
+  
+}
+
+.cta-button:hover {
+ 
+    color: var(--error-color);
+    font-weight: bold;
+    background-color: #411748;
+    border-bottom-color: currentColor;
+  
+}
 
 @media screen and (min-width: 1030px) {
   .logo-wrapper {
@@ -578,7 +626,7 @@ input[type="submit"]:hover {
 @media screen and (min-width: 800px) {
   .content-area-grid-3 {
       display: grid;
-      grid-template-columns: 20% 20% 20% 20%;
+      grid-template-columns: 24% 24% 24% 24%;
       justify-content: space-between;
   }
 }
