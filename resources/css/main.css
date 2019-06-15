@@ -248,6 +248,12 @@ hr {
 
 }
 
+
+.layout-wide-toppadded {
+  padding-top: 20pt;
+}
+
+
 .layout-mid {
   margin-bottom: var(--spacer-large);
   max-width: var(--area-mid);
