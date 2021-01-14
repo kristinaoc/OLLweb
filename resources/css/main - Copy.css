@@ -209,7 +209,7 @@ hr {
 .layout-wide,
 .layout-full-width {
   /*-- margin-bottom: var(--spacer-large); hidden when trying to fix floating window issue*/
-  margin-bottom: 0px;
+  margin-bottom: var(--spacer-large);
 }
 
 .layout-full-width {
@@ -303,8 +303,8 @@ header .layout-wide {
 
 .cta-button {
   margin: 3px;
-  background-color: var(--alternative-bg-color); /* #750088; */
-  /*background-color: rgb(132, 34, 145); */
+  background-color: #750088;
+  background-color: rgb(132, 34, 145);
   border: none;
   color: white;
   padding: 2px 25px;
@@ -364,9 +364,8 @@ header .layout-wide {
  
     color: var(--error-color);
     font-weight: bold;
-    background-color: var(--alternative-bg-color);  /* #411748; */
+    background-color: #411748;
     border-bottom-color: currentColor;
-    
   
 }
 
@@ -375,101 +374,6 @@ header .layout-wide {
   color: var(--error-color);
   font-weight: bold;
   border-bottom-color: currentColor;
-
-}
-
-
-.cta-ribbon ul {
-  width: 60%;
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2px;
-  margin-top: 2px;
-  
-}
-
-@media screen and (max-width: 800px) {
-  .cta-ribbon ul {
-    display: block;
-  }
-}
-
-.cta-ribbon a {
-  color: var(--alternative-text-color);
-  text-decoration: none;
-}
-
-.phonenum:hover,
-.emaillink:hover {       /*----- this bit no workey  -----*/
- 
-  color: var(--error-color);
-  text-decoration: underline;
-  border-bottom-color: currentColor;
-
-}
-
-.cta-ribbon a:hover {
-  color: var(--error-color);
-  text-decoration: none;
-}
-
-
-.contentlink {
-  overflow: hidden;
-  width: 100%;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-
-  text-align: center;
-
-}
-
-
-.contentlinkbutton {
-  margin: 3px;
-  background-color: rgb(245, 244, 241);
-  
-  color: var(--color-mid-grey);
-  padding: 10px 45px;
-  text-align: center; 
-  font-weight: bolder;
-  text-decoration: none ;
-  font-size: 20px;
-  font-style: italic;
-
-  border-radius: 0px;
-  padding: 5 px;
-
-  border: 1px solid var(--border-color);
-
-  transition: var(--transition-time);
-  display: inline-block;
- /* position: float;
-  text-align: center;  */
-}
-
-.contentlinkbutton:hover {
-  background-color: rgb(226, 225, 222);
-
-  color: var(--error-color);
-  font-weight: bold;
-  
-}
-
-.contentlinkbutton a {
-  color: var(--color-mid-grey);
-  text-decoration: none ;
-}
-
-.contentlinkbutton a:hover {
-  color: var(--error-color);
-  text-decoration: none ;
 
 }
 
@@ -624,7 +528,6 @@ header .layout-wide {
 
   /*change colour to match other menu items hover behaviour */
   color: var(--error-color);
-  font-weight: bold;
   border-bottom-color: currentColor;
   transition: var(--transition-time);
 
@@ -682,22 +585,6 @@ header .layout-wide {
       
 
 
-    /*   this next bit can hide the sub menus on mobile till clicked, but it's all or nothing  
-    .dropdown-content {
-      overflow: hidden;
-      transition: var(--transition-time);
-
-
-  }
-
-  .dropdown-content[aria-expanded="false"] {
-      max-height: 0;
-  }
-
-  .dropdown-content[aria-expanded="true"] {
-      max-height: 100vh;
-  }
-         */
 
 /* Links inside the dropdown */
 
@@ -847,10 +734,9 @@ input[type="submit"] {
   font-family: var(--font-default);
   text-transform: uppercase;
   background: var(--alternative-bg-color);
-  border-radius: 0px;
-  padding: 10 px 45px;
+  border-radius: 40px;
+  padding: var(--spacer);
   border: none;
-
 
   transition: var(--transition-time);
 }
@@ -1299,7 +1185,3 @@ th, td {
   padding: 2px;
   text-align: left;
 }
-
-
-
-

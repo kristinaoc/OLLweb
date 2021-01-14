@@ -209,7 +209,6 @@ hr {
 .layout-wide,
 .layout-full-width {
   /*-- margin-bottom: var(--spacer-large); hidden when trying to fix floating window issue*/
-  margin-bottom: 0px;
 }
 
 .layout-full-width {
@@ -281,7 +280,7 @@ header .layout-wide {
 }
 
 .logo-wrapper {
-  width: 100%;
+  width: 10%;
   /*--margin-left: auto;
   margin-right: auto;*/
 }
@@ -303,8 +302,8 @@ header .layout-wide {
 
 .cta-button {
   margin: 3px;
-  background-color: var(--alternative-bg-color); /* #750088; */
-  /*background-color: rgb(132, 34, 145); */
+  background-color: #750088;
+  background-color: rgb(132, 34, 145);
   border: none;
   color: white;
   padding: 2px 25px;
@@ -364,9 +363,8 @@ header .layout-wide {
  
     color: var(--error-color);
     font-weight: bold;
-    background-color: var(--alternative-bg-color);  /* #411748; */
+    background-color: #411748;
     border-bottom-color: currentColor;
-    
   
 }
 
@@ -375,101 +373,6 @@ header .layout-wide {
   color: var(--error-color);
   font-weight: bold;
   border-bottom-color: currentColor;
-
-}
-
-
-.cta-ribbon ul {
-  width: 60%;
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2px;
-  margin-top: 2px;
-  
-}
-
-@media screen and (max-width: 800px) {
-  .cta-ribbon ul {
-    display: block;
-  }
-}
-
-.cta-ribbon a {
-  color: var(--alternative-text-color);
-  text-decoration: none;
-}
-
-.phonenum:hover,
-.emaillink:hover {       /*----- this bit no workey  -----*/
- 
-  color: var(--error-color);
-  text-decoration: underline;
-  border-bottom-color: currentColor;
-
-}
-
-.cta-ribbon a:hover {
-  color: var(--error-color);
-  text-decoration: none;
-}
-
-
-.contentlink {
-  overflow: hidden;
-  width: 100%;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-
-  text-align: center;
-
-}
-
-
-.contentlinkbutton {
-  margin: 3px;
-  background-color: rgb(245, 244, 241);
-  
-  color: var(--color-mid-grey);
-  padding: 10px 45px;
-  text-align: center; 
-  font-weight: bolder;
-  text-decoration: none ;
-  font-size: 20px;
-  font-style: italic;
-
-  border-radius: 0px;
-  padding: 5 px;
-
-  border: 1px solid var(--border-color);
-
-  transition: var(--transition-time);
-  display: inline-block;
- /* position: float;
-  text-align: center;  */
-}
-
-.contentlinkbutton:hover {
-  background-color: rgb(226, 225, 222);
-
-  color: var(--error-color);
-  font-weight: bold;
-  
-}
-
-.contentlinkbutton a {
-  color: var(--color-mid-grey);
-  text-decoration: none ;
-}
-
-.contentlinkbutton a:hover {
-  color: var(--error-color);
-  text-decoration: none ;
 
 }
 
@@ -523,7 +426,7 @@ header .layout-wide {
 }
 
 .nav-inner li {
-  text-align: left;  /*changed from center to left so the mobile drop down separates the sub menu better*/
+  text-align: center;
 }
 
 .nav-inner a {
@@ -531,7 +434,7 @@ header .layout-wide {
   text-decoration: none;
   text-transform: uppercase;
   padding: var(--smallspacer) 1px;
- /* border-bottom: 1px solid var(--alternative-text-color); */
+  border-bottom: 5px solid var(--alternative-text-color);
 
   display: block;
 }
@@ -540,8 +443,7 @@ header .layout-wide {
 
 .nav-inner a:hover {
   color: var(--error-color);
-  /*border-bottom-color: currentColor;*/   /* turned off the red underline on hover to match drop down */
- 
+  border-bottom-color: currentColor;
 }
 
 @media screen and (min-width: 1030px) {
@@ -564,76 +466,6 @@ header .layout-wide {
 }
 
 
-/* dropdown coding - testing */ 
-
-/* Dropdown Button */
-.dropbtn {
-  background-color: var(--alternative-bg-color);
-  color: var(--alternative-text-color);
- /*
-  padding: var(--smallspacer); 
-  font-size: 16px;
-  */
-  border: none;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-  
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  text-align: left;
-  background-color: var(--color-almost-white);
-  min-width: 160px; 
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: var(--main-text-color);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  transition: var(--transition-time);
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  transition: var(--transition-time);
-  display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
- /* background-color: var(--color-mid-grey); */
-
-  /*change colour to match other menu items hover behaviour */
-  color: var(--error-color);
-  font-weight: bold;
-  border-bottom-color: currentColor;
-  transition: var(--transition-time);
-
-}
-
-
-/* end dropdown coding testing */
-
-
 @media screen and (max-width: 1030px) {
 
     .nav-inner {
@@ -650,70 +482,6 @@ header .layout-wide {
     .nav-inner[aria-expanded="true"] {
         max-height: 100vh;
     }
-
-
-    /* dropdown for mobile coding testing  */
-
-   
-
-  /*copied from above*/
-    /* Dropdown Content (Hidden by Default) */
-
-   
-    .dropdown-content {
-      overflow: hidden;
-      transition: var(--transition-time);
-
-      display: block;   /*changed from none when hiding without hover or click*/
-      position: relative;
-      left: 20px;
-      right: float;
-     
-     
-      text-align: leftt;
-      background-color: var(--color-mid-grey);
-
-      color: var(--alternative-text-color);  
-      border: none;
-      min-width: 400px; 
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-      
-
-
-    /*   this next bit can hide the sub menus on mobile till clicked, but it's all or nothing  
-    .dropdown-content {
-      overflow: hidden;
-      transition: var(--transition-time);
-
-
-  }
-
-  .dropdown-content[aria-expanded="false"] {
-      max-height: 0;
-  }
-
-  .dropdown-content[aria-expanded="true"] {
-      max-height: 100vh;
-  }
-         */
-
-/* Links inside the dropdown */
-
-
-    .dropdown-content a {
-      color: var(--alternative-text-color);
-      padding-top: var(--smallspacer);  /*dddd*/
-      padding-bottom: var(--smallspacer);   /*dddd*/
-      
-      font-style: italic;
-      text-transform: capitalize;
-      /*display: block;*/
-    }
-
-
-    /* end dropdown for mobile coding testing */
 
     
 }
@@ -767,19 +535,7 @@ header .layout-wide {
 }
 
 
-/* -------------------menu bar-----------------  */ 
-.container {
-  display: inline-block;
-  cursor: pointer;
-}
 
-.bar1, .bar2, .bar3 {
-  width: 30px;
-  height: 4px;
-  background-color: var(--alternative-text-color);
-  margin: 4px 0;
-  transition: 0.4s;
-}
 
 
 
@@ -847,10 +603,9 @@ input[type="submit"] {
   font-family: var(--font-default);
   text-transform: uppercase;
   background: var(--alternative-bg-color);
-  border-radius: 0px;
-  padding: 10 px 45px;
+  border-radius: 40px;
+  padding: var(--spacer);
   border: none;
-
 
   transition: var(--transition-time);
 }
@@ -1299,7 +1054,3 @@ th, td {
   padding: 2px;
   text-align: left;
 }
-
-
-
-

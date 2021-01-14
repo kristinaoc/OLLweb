@@ -29,23 +29,7 @@ $('.nav-prompt').click(function() {
 
 })
 
-//submenu dropdowns 
 
-
-
-
-$('.dropbtn').click(function() {
-
-    if ($('.dropdown-content').attr('aria-expanded') == 'false') {
-
-        $('.dropdown-content').attr('aria-expanded', 'true')
-
-    } else {
-        $('.dropdown-content').attr('aria-expanded', 'false');
-    }
-
-
-})
 
 
 
