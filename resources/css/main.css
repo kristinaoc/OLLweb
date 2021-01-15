@@ -573,6 +573,8 @@ header .layout-wide {
 /*  THIS SHOULD BE CHANGED TO MOBILE FIRST  */
 
 /* Dropdown Button */
+
+
 .dropbtn {
   background-color: var(--alternative-bg-color);
   color: var(--alternative-text-color);
@@ -623,7 +625,6 @@ header .layout-wide {
   transition: var(--transition-time);
   display: block;
 }
-
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
  /* background-color: var(--color-mid-grey); */
@@ -933,7 +934,7 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-      display: none;   /*changed to block from none when hiding without hover or click*/
+      display: block;   /*changed to block from none when hiding without hover or click*/
       position: relative;
       left: 20px;
       right: float;
@@ -954,7 +955,7 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-      display: none;   /*changed from none when hiding without hover or click*/
+      display: block;   /*changed from none when hiding without hover or click*/
       position: relative;
       left: 20px;
       right: float;
@@ -975,7 +976,7 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-      display: none;   /*changed from none when hiding without hover or click*/
+      display: block;   /*changed from none when hiding without hover or click*/
       position: relative;
       left: 20px;
       right: float;
@@ -996,7 +997,7 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-      display: none;   /*changed from none when hiding without hover or click*/
+      display: block;   /*changed from none when hiding without hover or click*/
       position: relative;
       left: 20px;
       right: float;
@@ -1017,7 +1018,7 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-      display: none;   /*changed from none when hiding without hover or click*/
+      display: block;   /*changed from none when hiding without hover or click*/
       position: relative;
       left: 20px;
       right: float;
