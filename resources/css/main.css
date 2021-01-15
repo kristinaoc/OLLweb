@@ -668,10 +668,12 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-      display: block;   /*changed from none when hiding without hover or click*/
+     /* display: block; */  /*changed from none when hiding without hover or click*/
       position: relative;
-      left: 20px;
+      left: 0px;
       right: float;
+      display: flex;
+      justify-content: flex-start;
      
      
       text-align: leftt;
@@ -679,11 +681,15 @@ header .layout-wide {
 
       color: var(--alternative-text-color);  
       border: none;
-      min-width: 400px; 
+      border: 1px solid var(--border-color);
+      min-width: 100px; 
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
     }
-      
+      /*to turn off hover dropdown for mobile*/
+    .dropdown:hover .dropdown-content {
+      display: flex;
+    }
 
 
     /*   this next bit can hide the sub menus on mobile till clicked, but it's all or nothing  
