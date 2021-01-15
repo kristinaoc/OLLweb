@@ -409,7 +409,7 @@ header .layout-wide {
 }
 
 .phonenum:hover,
-.emaillink:hover {       /*----- this bit no workey  -----*/
+.emaillink:hover {       /*----- this bit was troublesome, think is ook now  -----*/
  
   color: var(--error-color);
   text-decoration: underline;
@@ -568,7 +568,9 @@ header .layout-wide {
 }
 
 
-/* dropdown coding - testing */ 
+/* dropdown coding - testing */   
+
+/*  THIS SHOULD BE CHANGED TO MOBILE FIRST  */
 
 /* Dropdown Button */
 .dropbtn {
@@ -633,7 +635,270 @@ header .layout-wide {
   transition: var(--transition-time);
 
 }
+/* first dropdown end */
 
+/* Dropdown Button */
+.dropbtn1 {
+  background-color: var(--alternative-bg-color);
+  color: var(--alternative-text-color);
+ /*
+  padding: var(--smallspacer); 
+  font-size: 16px;
+  */
+  border: none;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown1-content {
+  display: none;
+  position: absolute;
+  text-align: left;
+  background-color: var(--color-almost-white);
+  min-width: 160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown1-content a {
+  color: var(--main-text-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown1-content a:hover {
+  transition: var(--transition-time);
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown1-content {
+  transition: var(--transition-time);
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {
+ /* background-color: var(--color-mid-grey); */
+
+  /*change colour to match other menu items hover behaviour */
+  color: var(--error-color);
+  font-weight: bold;
+  border-bottom-color: currentColor;
+  transition: var(--transition-time);
+
+}
+/*end 1 */
+
+/* Dropdown Button */
+.dropbtn2 {
+  background-color: var(--alternative-bg-color);
+  color: var(--alternative-text-color);
+ /*
+  padding: var(--smallspacer); 
+  font-size: 16px;
+  */
+  border: none;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  text-align: left;
+  background-color: var(--color-almost-white);
+  min-width: 160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown2-content a {
+  color: var(--main-text-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown2-content a:hover {
+  transition: var(--transition-time);
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown2-content {
+  transition: var(--transition-time);
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn {
+ /* background-color: var(--color-mid-grey); */
+
+  /*change colour to match other menu items hover behaviour */
+  color: var(--error-color);
+  font-weight: bold;
+  border-bottom-color: currentColor;
+  transition: var(--transition-time);
+
+}
+
+/* end 2 */
+
+/* Dropdown Button */
+.dropbtn3 {
+  background-color: var(--alternative-bg-color);
+  color: var(--alternative-text-color);
+ /*
+  padding: var(--smallspacer); 
+  font-size: 16px;
+  */
+  border: none;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown3-content {
+  display: none;
+  position: absolute;
+  text-align: left;
+  background-color: var(--color-almost-white);
+  min-width: 160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown3-content a {
+  color: var(--main-text-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown3-content a:hover {
+  transition: var(--transition-time);
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown3-content {
+  transition: var(--transition-time);
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown3:hover .dropbtn3 {
+ /* background-color: var(--color-mid-grey); */
+
+  /*change colour to match other menu items hover behaviour */
+  color: var(--error-color);
+  font-weight: bold;
+  border-bottom-color: currentColor;
+  transition: var(--transition-time);
+
+}
+
+/* end 3 */
+
+/* Dropdown Button */
+.dropbtn4 {
+  background-color: var(--alternative-bg-color);
+  color: var(--alternative-text-color);
+ /*
+  padding: var(--smallspacer); 
+  font-size: 16px;
+  */
+  border: none;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown4-content {
+  display: none;
+  position: absolute;
+  text-align: left;
+  background-color: var(--color-almost-white);
+  min-width: 160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown4-content a {
+  color: var(--main-text-color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown4-content a:hover {
+  transition: var(--transition-time);
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown4:hover .dropdown4-content {
+  transition: var(--transition-time);
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown4:hover .dropbtn4 {
+ /* background-color: var(--color-mid-grey); */
+
+  /*change colour to match other menu items hover behaviour */
+  color: var(--error-color);
+  font-weight: bold;
+  border-bottom-color: currentColor;
+  transition: var(--transition-time);
+
+}
+ 
+/* end 4 */
 
 /* end dropdown coding testing */
 
@@ -668,13 +933,13 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-      display: block;   /*changed from none when hiding without hover or click*/
+      display: none;   /*changed to block from none when hiding without hover or click*/
       position: relative;
       left: 20px;
       right: float;
      
      
-      text-align: leftt;
+      text-align: left;
       background-color: var(--color-mid-grey);
 
       color: var(--alternative-text-color);  
@@ -685,13 +950,102 @@ header .layout-wide {
     }
       
 
-
-    /*   this next bit can hide the sub menus on mobile till clicked, but it's all or nothing  
-    .dropdown-content {
+    .dropdown1-content {
       overflow: hidden;
       transition: var(--transition-time);
 
+      display: none;   /*changed from none when hiding without hover or click*/
+      position: relative;
+      left: 20px;
+      right: float;
+     
+     
+      text-align: left;
+      background-color: var(--color-mid-grey);
 
+      color: var(--alternative-text-color);  
+      border: none;
+      min-width: 400px; 
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    
+    .dropdown2-content {
+      overflow: hidden;
+      transition: var(--transition-time);
+
+      display: none;   /*changed from none when hiding without hover or click*/
+      position: relative;
+      left: 20px;
+      right: float;
+     
+     
+      text-align: left;
+      background-color: var(--color-mid-grey);
+
+      color: var(--alternative-text-color);  
+      border: none;
+      min-width: 400px; 
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    
+    .dropdown3-content {
+      overflow: hidden;
+      transition: var(--transition-time);
+
+      display: none;   /*changed from none when hiding without hover or click*/
+      position: relative;
+      left: 20px;
+      right: float;
+     
+     
+      text-align: left;
+      background-color: var(--color-mid-grey);
+
+      color: var(--alternative-text-color);  
+      border: none;
+      min-width: 400px; 
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    
+    .dropdown4-content {
+      overflow: hidden;
+      transition: var(--transition-time);
+
+      display: none;   /*changed from none when hiding without hover or click*/
+      position: relative;
+      left: 20px;
+      right: float;
+     
+     
+      text-align: left;
+      background-color: var(--color-mid-grey);
+
+      color: var(--alternative-text-color);  
+      border: none;
+      min-width: 400px; 
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /*   this next bit is for interactive menu on mobile  */
+
+
+
+
+
+
+
+    
+
+    .dropdown-content {
+      overflow: hidden;
+      transition: var(--transition-time);
   }
 
   .dropdown-content[aria-expanded="false"] {
@@ -701,12 +1055,108 @@ header .layout-wide {
   .dropdown-content[aria-expanded="true"] {
       max-height: 100vh;
   }
-         */
+
+  .dropdown1-content {
+    overflow: hidden;
+    transition: var(--transition-time);
+}
+
+.dropdown1-content[aria-expanded="false"] {
+    max-height: 0;
+}
+
+.dropdown1-content[aria-expanded="true"] {
+    max-height: 100vh;
+}
+
+.dropdown2-content {
+  overflow: hidden;
+  transition: var(--transition-time);
+}
+
+.dropdown2-content[aria-expanded="false"] {
+  max-height: 0;
+}
+
+.dropdown2-content[aria-expanded="true"] {
+  max-height: 100vh;
+}
+
+.dropdown3-content {
+  overflow: hidden;
+  transition: var(--transition-time);
+}
+
+.dropdown3-content[aria-expanded="false"] {
+  max-height: 0;
+}
+
+.dropdown3-content[aria-expanded="true"] {
+  max-height: 100vh;
+}
+
+.dropdown4-content {
+  overflow: hidden;
+  transition: var(--transition-time);
+}
+
+.dropdown4-content[aria-expanded="false"] {
+  max-height: 0;
+}
+
+.dropdown4-content[aria-expanded="true"] {
+  max-height: 100vh;
+}
+         
 
 /* Links inside the dropdown */
 
 
     .dropdown-content a {
+      color: var(--alternative-text-color);
+      padding-top: var(--smallspacer);  /*dddd*/
+      padding-bottom: var(--smallspacer);   /*dddd*/
+      
+      font-style: italic;
+      text-transform: capitalize;
+      /*display: block;*/
+    }
+
+    
+    .dropdown1-content a {
+      color: var(--alternative-text-color);
+      padding-top: var(--smallspacer);  /*dddd*/
+      padding-bottom: var(--smallspacer);   /*dddd*/
+      
+      font-style: italic;
+      text-transform: capitalize;
+      /*display: block;*/
+    }
+
+    
+    .dropdown2-content a {
+      color: var(--alternative-text-color);
+      padding-top: var(--smallspacer);  /*dddd*/
+      padding-bottom: var(--smallspacer);   /*dddd*/
+      
+      font-style: italic;
+      text-transform: capitalize;
+      /*display: block;*/
+    }
+
+    
+    .dropdown3-content a {
+      color: var(--alternative-text-color);
+      padding-top: var(--smallspacer);  /*dddd*/
+      padding-bottom: var(--smallspacer);   /*dddd*/
+      
+      font-style: italic;
+      text-transform: capitalize;
+      /*display: block;*/
+    }
+
+    
+    .dropdown4-content a {
       color: var(--alternative-text-color);
       padding-top: var(--smallspacer);  /*dddd*/
       padding-bottom: var(--smallspacer);   /*dddd*/
