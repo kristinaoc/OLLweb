@@ -51,9 +51,11 @@ font-family: 'Tajawal', sans-serif; */
   --color-mid-grey: #3a383b;
   --color-mid-blue: #34495e;
   --color-almost-white: #e8eef4; 
+  --color-almostish-white: #dfe2dd; 
    /*--color-almost-white: #cfced0;*/
   --color-purple: #750088;
   --color-darkgrey: #222023;
+  --color-bitlightergrey: #222023;
 
   /* abstract colors out */
   --main-text-color: var(--color-mid-blue);
@@ -63,7 +65,9 @@ font-family: 'Tajawal', sans-serif; */
   --border-color: var(--color-light-grey);
 
   --secondary-bg-color: var(--color-almost-white);
+  --secondary-bg-color-blendaccent: var(--color-almostish-white);
   --alternative-bg-color: var(--color-darkgrey);
+  --alternative-bg-color-blendaccent: var(--color-mid-grey);
 
   /* measurements*/
   --padder: 3%;
@@ -293,10 +297,10 @@ header .layout-wide {
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--color-mid-grey);
+  background-color: var(--alternative-bg-color-blendaccent);
   padding-bottom: var(--extrasmallpadder);
   padding-top: var(--extrasmallpadder);
-  color: var(--color-almost-white);
+  color: var(--alternative-text-color);
   text-align: center;
 
 }
@@ -343,7 +347,7 @@ header .layout-wide {
   margin: 3px;
   background-color: var(--alternative-bg-color);
   border: none;
-  color: white;
+  color: var(--alternative-text-color);
   padding: 10px 45px;
   text-align: center;
   font-weight: bolder;
@@ -380,7 +384,7 @@ header .layout-wide {
 
 
 .cta-ribbon ul {
-  width: 60%;
+  width: 80%;
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -433,9 +437,9 @@ header .layout-wide {
 
 .contentlinkbutton {
   margin: 3px;
-  background-color: rgb(245, 244, 241);
+  background-color: var(--secondary-bg-color-blendaccent);     /* rgb(245, 244, 241);*/
   
-  color: var(--color-mid-grey);
+  color: var(--alternative-bg-color);
   padding: 10px 45px;
   text-align: center; 
   font-weight: bolder;
@@ -455,7 +459,7 @@ header .layout-wide {
 }
 
 .contentlinkbutton:hover {
-  background-color: rgb(226, 225, 222);
+  background-color: var(--secondary-bg-color-blendaccent);
 
   color: var(--error-color);
   font-weight: bold;
@@ -463,7 +467,7 @@ header .layout-wide {
 }
 
 .contentlinkbutton a {
-  color: var(--color-mid-grey);
+  color: var(--alternative-bg-color);
   text-decoration: none ;
 }
 
