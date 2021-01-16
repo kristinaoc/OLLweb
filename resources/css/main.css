@@ -295,13 +295,15 @@ header .layout-wide {
   overflow: hidden;
   width: 100%;
   margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/   /*turned this off for now cos it seems not to do anything with other current code 11.30 am 16/1  */  
   background-color: var(--alternative-bg-color-blendaccent);
   padding-bottom: var(--extrasmallpadder);
   padding-top: var(--extrasmallpadder);
   color: var(--alternative-text-color);
-  text-align: center;
+  text-align: center;   /*this is aligning the list items centred in the list, but not the whole group of list in the ribbon*/
+  align-items: center;
+  
 
 }
 
@@ -384,22 +386,26 @@ header .layout-wide {
 
 
 .cta-ribbon ul {
-  width: 80%;
+  width: 100%;
   align-items: center;
-  display: flex;
+  display: flex; 
   justify-content: space-evenly;
   list-style: none;
   
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto; 
+  margin-right: auto; 
   margin-bottom: 2px;
   margin-top: 2px;
   
 }
 
+
+
+
 @media screen and (max-width: 800px) {
   .cta-ribbon ul {
     display: block;
+    width: 100%;
   }
 }
 
