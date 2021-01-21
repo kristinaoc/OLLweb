@@ -303,8 +303,21 @@ header .layout-wide {
   color: var(--alternative-text-color);
   text-align: center;   /*this is aligning the list items centred in the list, but not the whole group of list in the ribbon*/
   align-items: center;
+  display: block; 
   
+ 
+}
 
+@media screen and (min-width: 800px) {
+.cta-ribbon {
+  display: flex; 
+  justify-content: space-evenly;
+ 
+  
+  margin-left: auto; 
+  margin-right: auto; 
+  
+}
 }
 
 .cta-button {
@@ -385,29 +398,9 @@ header .layout-wide {
 }
 
 
-.cta-ribbon ul {
-  width: 100%;
-  align-items: center;
-  display: flex; 
-  justify-content: space-evenly;
-  list-style: none;
-  
-  margin-left: auto; 
-  margin-right: auto; 
-  margin-bottom: 2px;
-  margin-top: 2px;
-  
-}
 
 
 
-
-@media screen and (max-width: 800px) {
-  .cta-ribbon ul {
-    display: block;
-    width: 100%;
-  }
-}
 
 .cta-ribbon a {
   color: var(--alternative-text-color);
