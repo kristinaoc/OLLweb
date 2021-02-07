@@ -53,7 +53,7 @@ font-family: 'Tajawal', sans-serif; */
   --color-almost-white: #e8eef4; 
   --color-almostish-white: #dfe2dd; 
    /*--color-almost-white: #cfced0;*/
-  --color-purple: #750088;
+  --color-purple: #b805ff;
   --color-darkgrey: #222023;
   --color-bitlightergrey: #222023;
 
@@ -61,7 +61,7 @@ font-family: 'Tajawal', sans-serif; */
   --main-text-color: var(--color-mid-blue);
   --strong-text-color: var(--color-deep-blue);
   --alternative-text-color: var(--color-almost-white);
-  --error-color: var(--color-red);
+  --error-color: var(--color-purple);
   --border-color: var(--color-light-grey);
 
   --secondary-bg-color: var(--color-almost-white);
@@ -131,6 +131,7 @@ h1 {
   font-family: var(--font-heading);
   font-weight: normal;
   color: var(--strong-text-color);
+  line-height: 1.3;
   
   
 }
@@ -157,14 +158,27 @@ h2 {
   
 }
 
-h3 {
+h3,h4 {
   font-size: var(--font-size-sub-title);
+}
+
+
+h4 {
+  font-family: var(--font-heading2);
+  font-weight: bold;
+  font-size: var(--font-size-section-title);
+  text-align: center;
+  padding-top: var(--padder);
+  color: var(--alternative-text-color);
+  
 }
 
 a {
   color: var(--error-color);
   transition: var(--transition-time);
 }
+
+
 
 a:hover {
   color: var(--strong-text-color);
@@ -797,20 +811,35 @@ header .layout-wide {
 
 footer {
   background-color: var(--alternative-bg-color);
+  color: var(--alternative-text-color);
+}
+
+h5 {
+  color: var(--alternative-text-color);
+  
 }
 
 .footer-subscribe {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--alternative-bg-color-blendaccent);
+  padding-top: var(--spacer-medium);
+  padding-bottom: var(--spacer-small);
+  text-align: center;
+
+}
+
+.footer-gallery-shortcuts {
+  background-color: var(--alternative-bg-color-blendaccent);
   padding-top: var(--spacer-medium);
   padding-bottom: var(--spacer-small);
   text-align: center;
 }
 
-.footer-gallery-shortcuts {
-  background-color: var(--secondary-bg-color);
-  padding-top: var(--spacer-medium);
+.privacy-policy {
+  background-color: var(--alternative-bg-color-blendaccent);
+  padding-top: var(--spacer-small);
   padding-bottom: var(--spacer-small);
   text-align: center;
+
 }
 
 .footer-notices {
@@ -834,12 +863,43 @@ i.fab {
   color: white;
 }
 
+
+
+.image-index-footer a {
+  color: var(--alternative-text-color);
+  text-decoration: none;
+}
+
+.image-index-footer a:hover {
+  color: var(--error-color);
+  text-decoration: none;
+  font-size: 120%;
+}
+
+
+.privacy-policy a:hover {
+  color: var(--error-color);
+  text-decoration: none;
+  font-size: 120%;
+}
+
+
+.privacy-policy a {
+  color: var(--alternative-text-color);
+  text-decoration: none;
+}
+
+
+
+
 /* -------------------------FORMS-----------------------------  */
 
 label {
   display: block;
   font-weight: bold;
 }
+
+
 
 input[type="text"],
 input[type="email"] {
@@ -885,6 +945,7 @@ input[type="submit"]:hover {
                /* position: sticky;
         top: 0;
         z-index: 10;*/
+        /*line-height: 0.5;*/
     }
 
     .hero-module img {
@@ -905,8 +966,10 @@ input[type="submit"]:hover {
 
     .heading-main {
         color: var(--alternative-text-color); 
-        text-shadow: 0px 1px 25px var(--strong-text-color);
+        text-shadow: 0px 5px 10px black;
+        /*text-shadow: 0px 1px 25px var(--strong-text-color);*/
     }
+    
 
 
     .layout-wide img {
@@ -1036,6 +1099,7 @@ input[type="submit"]:hover {
 
   top: 0;
   z-index: 1;
+  line-height: 0.5;
 }
 
 
@@ -1047,6 +1111,7 @@ input[type="submit"]:hover {
 
   top: 0;
   z-index: 2;
+  line-height: 0.5;
 }
 
 
@@ -1057,6 +1122,7 @@ input[type="submit"]:hover {
 
   top: 0;
   z-index: 2;
+  line-height: 0.5;
 }
 
 
