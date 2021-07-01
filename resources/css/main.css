@@ -719,6 +719,9 @@ header .layout-wide {
 
   .dropdown-content[aria-expanded="true"] {
       max-height: 100vh;
+      background-color: var(--color-mid-grey);
+
+      color: var(--alternative-text-color); 
   }
          
 
