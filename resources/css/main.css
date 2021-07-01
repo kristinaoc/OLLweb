@@ -710,7 +710,7 @@ header .layout-wide {
       overflow: hidden;
       transition: var(--transition-time);
 
-
+ 
   }
 
   .dropdown-content[aria-expanded="false"] {
